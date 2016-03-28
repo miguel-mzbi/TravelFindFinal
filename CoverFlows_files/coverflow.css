@@ -1,0 +1,21 @@
+
+
+body{position: relative;}
+
+canvas, img{position: absolute;}
+
+#__cvfl-coverflow{ height: 600px; margin: auto; overflow: hidden; 
+                  position: relative; width: 600px;
+}
+
+#__cvfl-coverflow-label{ font: 15pt Arial; line-height: 1.3em;
+	position: relative;top: 223px;z-index: 700;margin-left:50px; margin-top:130px;
+}
+
+#__cvfl-coverflow-label a{ font-size:12px; color:#0099FF;}
+
+#__cvfl-coverflow-holder{ width: 650px; background:white; padding:15px 0; }
+
+#description { font-size:14px;}
+
+#__lb-im {  z-index:1000; left:-325px; width:350px; height:350px;}

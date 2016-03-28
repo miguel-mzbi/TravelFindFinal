@@ -1,0 +1,52 @@
+html{
+    padding: 50px 0;
+}
+
+body{ 
+    font-family: sans-serif;
+}
+
+#mainSep{
+    height: 70px;
+    margin-bottom: 15px;
+}
+
+#mainSep1{
+    float:left;
+    width: 500px;
+    margin-top: 10px;
+}
+
+#mainSep2{
+    float:right;
+    width: 500px;
+}
+
+#secSep1{
+    float:left;
+    width: 250px;
+}
+
+#secSep2{
+    float:right;
+    width: 250px;
+}
+
+#searchForm{
+    margin-top: 20px;
+    padding: 10px;
+    border: dashed;
+}
+
+.hr1{
+    border-width: 5px;
+}
+
+
+/*@font-face {
+    font-family: timeBurner;
+    src: url(timeburnernormal.ttf);
+}
+body {
+    font-family: timeburner;
+} */
