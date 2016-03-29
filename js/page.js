@@ -25,7 +25,7 @@ $("#alertSearch").dialog({
     width:1000
 });
 
-$("#datepicker").datepicker({
+$(".datepicker").datepicker({
     changeMonth: true,
     changeYear: true
 });

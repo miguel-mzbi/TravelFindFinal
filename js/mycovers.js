@@ -26,8 +26,11 @@ if (canvas_compatible) {
                     description: '<p>The Person 1 Story ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- hhhhhhhhhhhhhhhhh</p>', 
                     high:'CoverFlows_files/covers/img3large.jpg'}},
 
+            {src: 'CoverFlows_files/covers/img5large.jpg',
+            label: {name: 'Person 3', description: 'The Person 3 Story', high:'CoverFlows_files/covers/img5large.jpg'}},
             {src: 'CoverFlows_files/covers/img4large.jpg',
             label: {name: 'Person 2', description: 'The Person 2 Story', high:'CoverFlows_files/covers/img4large.jpg'}},
+            
         ],
 
         {   createLabel: function(item){

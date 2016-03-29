@@ -1,9 +1,15 @@
 html{
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 body{ 
     font-family: sans-serif;
+}
+
+#title{
+    width: 270px;
+    background-color: #0E94CC;
+    border-radius: 10px;
 }
 
 #mainSep{
@@ -43,10 +49,10 @@ body{
 }
 
 
-/*@font-face {
+/* @font-face {
     font-family: timeBurner;
     src: url(timeburnernormal.ttf);
 }
 body {
-    font-family: timeburner;
+    font-family: timeBurner;
 } */
