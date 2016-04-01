@@ -44,6 +44,12 @@ body{
     border: dashed;
 }
 
+#contactForm{
+    margin-top: 20px;
+    padding: 10px;
+    border: dotted;
+}
+
 .hr1{
     border-width: 5px;
 }
