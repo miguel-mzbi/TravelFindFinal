@@ -514,6 +514,13 @@
                 <div id="alertSearch">
                     <p>You can continue to refine the search if you close the dialog an search again.</p>
                     <h1>Results:</h1>
+                    <div id="app">
+                        <ul>
+                            <li v-for="todo in todos">
+                                {{todo.text}}
+                            </li>
+                        </ul>
+                    </div>
                     <div style="border:dotted; width:500px">
                     </div>
                     <div></div>
@@ -732,7 +739,17 @@
             
             
         </div>
-        
+        <script>
+            new vue({
+                el: '#app',
+                data: {
+                    todos:[
+                        { text: 'If you do not find your family member, please contact us.'},
+                        { text: 'We want to help you.'}
+                        ]
+                }
+            })
+        </script>
                 
         <script type="text/javascript"src="js/jquery-1.12.2.js"></script>
         <script type="text/javascript"src="js/jquery-ui.js"></script>
