@@ -19,11 +19,12 @@
             ga('send', 'pageview');
 
         </script>
+        <script src="js/vue.js" type="application/javascript" ></script>
         <!--#5ED0FF, #0E94CC-->
     </head>
 
     <body>
-        <div id="content">
+        <div style="margin:20px; width:1000px; margin-left:9em; position:relative;">
             <div align="center">
                 <div id="title"><h1>Traveler Find</h1></div>
                 <h3>Organization Description</h3>
@@ -43,7 +44,7 @@
             
             <br>
             <div align="center">
-                <h1>Succesfull Stories of Families Reunited</h1>
+                <h1>Succesfull Stories of Families Reunited</h2>
                 <h5>Use your scroll wheel, arrows or mouse to change the image and learn more about the story.</h5>
             </div>
             
@@ -513,6 +514,13 @@
                 <div id="alertSearch">
                     <p>You can continue to refine the search if you close the dialog an search again.</p>
                     <h1>Results:</h1>
+                    <div id="app">
+                        <ul>
+                            <li v-for="todo in todos">
+                                {{todo.text}}
+                            </li>
+                        </ul>
+                    </div>
                     <div style="border:dotted; width:500px">
                     </div>
                     <div></div>
@@ -727,15 +735,21 @@
                 </form>
                 
             </div>
-              
-            <div class="footer">
-                Click here to go to the process page:
-                <a href="url">Here!</a>
-            </div>
+            
+            
+            
         </div>
-        
-        
-        
+        <script>
+            new Vue({
+                el: '#app',
+                data: {
+                    todos:[
+                        { text: 'If you do not find your family member, please contact us.'},
+                        { text: 'We want to help you.'}
+                        ]
+                }
+            })
+        </script>
                 
         <script type="text/javascript"src="js/jquery-1.12.2.js"></script>
         <script type="text/javascript"src="js/jquery-ui.js"></script>
