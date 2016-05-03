@@ -216,7 +216,7 @@ var Coverflow ={
 	containerWidth: 537.68,//0
 	list: [],
 	options:{
-		bgColor: 'whitesmoke', //272727',
+		bgColor: 'white', //272727',
 		middleSpace: 10,
 		createLabel: function(item){
 			return item.label;

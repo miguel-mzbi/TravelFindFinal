@@ -4,33 +4,11 @@ html{
 
 body{ 
     font-family: sans-serif;
-    background-color: #0E94CC;
-}
-
-.footer{
-    position:fixed;
-    left:0px;
-    bottom:0px;
-    height:20px;
-    width:100%;
-    padding: 5px;
-    background:whitesmoke;
-
-}
-
-#content{
-    margin:20px; 
-    width:1000px; 
-    margin:0 auto; 
-    position:relative; 
-    border: dotted; 
-    padding: 20px;
-    background-color: whitesmoke;
 }
 
 #title{
     width: 270px;
-    background-color: #5ED0FF;
+    background-color: #0E94CC;
     border-radius: 10px;
 }
 
